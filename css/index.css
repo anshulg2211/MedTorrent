@@ -1,0 +1,101 @@
+        #Heading {
+            font-size: 40px;
+            color: #1a1a2e;
+        }
+
+        #username {
+            width: 80%;
+        }
+
+        #password {
+            width: 80%;
+        }
+
+        #mobile {
+            width: 80%;
+        }
+
+        .userLogin {
+           
+            display: block;
+            width: 100%;
+            height: calc(1.5em + .75rem + 2px);
+            padding: .375rem .75rem;
+            font-size: 1rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #495057;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+        }
+
+        .not-ok {
+            color: red;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .ok {
+            color: green;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .child {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-bottom: 5px;
+            border: 1px #ced4da solid;
+            width: 80%;
+        }
+
+        #eye-sign {
+            padding-right: 5px;
+            padding-top: 6px;
+            font-size: 25px;
+        }
+
+        #pass_login {
+            border: 0px;
+            outline: none;
+
+        }
+
+        #password {
+            border: 0px;
+            outline: none;
+        }
+
+        #user_login {
+            width: 80%;
+        }
+
+        .container {
+            margin: 0;
+            max-width: 100%;
+            background-color: #f1f6f9;
+        }
+
+        .navTxt {
+            font-size: 15px;
+        }
+
+        .aboutCard {
+            border: 1px solid black;
+            width: inherit;
+            height: 150px;
+        }
+        .socialIcon
+        {
+            color: lightgrey; 
+            font-size: 20px;
+        }
+        .socialIcon : hover
+        {
+            cursor: pointer;
+            color: crimson;
+        }
